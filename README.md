@@ -13,6 +13,6 @@ for i=1,loops,1 do
 	sm = sm:add(bignum(fv))
 	smx = smx + fv
 end
-print(smx)
+print(smx:string())
 ```
 
